@@ -36,8 +36,8 @@
 **1. Overflow**
 
 Terjadi ketika nilai **lebih besar** dari yang bisa ditampung **tipe data**.
-
 contoh:
+
     ```c
     unsigned char x = 255;
     x = x + 1;  // overflow
@@ -45,6 +45,7 @@ contoh:
     ```
 
 Hasilnya:
+
     ```C
     x = 0
     ```
