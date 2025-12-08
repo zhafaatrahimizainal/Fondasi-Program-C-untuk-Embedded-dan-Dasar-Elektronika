@@ -36,19 +36,16 @@
 **1. Overflow**
 
 Terjadi ketika nilai **lebih besar** dari yang bisa ditampung **tipe data**.
+
 contoh:
 
-    ```c
     unsigned char x = 255;
     x = x + 1;  // overflow
     printf("%d", x);
-    ```
 
 Hasilnya:
 
-    ```C
     x = 0
-    ```
 
 Karena 255 + 1 → kembali ke 0 (wrap around).
 
